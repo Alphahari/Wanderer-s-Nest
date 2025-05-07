@@ -2,8 +2,8 @@ import React, { useRef, useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Calendar, MapPin, Star, X } from "lucide-react";
 
-import destinations from '../data/Destinations';
-import stateTouristSpots from '../data/StateTouristSpots';
+import destinations from '../data/destinations';
+import stateTouristSpots from '../data/stateTouristSpots';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUserData, selectIsLoading, selectToken, selectUserData } from '../redux/tokenManager/tokens';
