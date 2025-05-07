@@ -1,4 +1,4 @@
-const carouselImages = [
+const CarouselImages = [
     {
         url: "/tajmahal.jpg",
         alt: "Taj Mahal at sunset",
@@ -16,4 +16,4 @@ const carouselImages = [
     },
 ]
 
-export default carouselImages;
+export default CarouselImages;

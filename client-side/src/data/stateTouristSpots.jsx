@@ -1,4 +1,4 @@
-const stateTouristSpots = {
+const StateTouristSpots = {
   "uttar-pradesh": [
     {
       id: 1,
@@ -297,4 +297,4 @@ const stateTouristSpots = {
   ]
 };
 
-export default stateTouristSpots;
+export default StateTouristSpots;

@@ -1,4 +1,4 @@
-const destinations = [
+const Destinations = [
     {
         name: "Rajasthan",
         image: "/rajasthan.jpg",
@@ -73,4 +73,4 @@ const destinations = [
     },
 ];
 
-export default destinations;
+export default Destinations;

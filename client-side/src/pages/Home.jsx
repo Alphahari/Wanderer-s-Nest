@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react"
 import { ArrowLeft, ArrowRight, MapPin, Calendar } from "lucide-react"
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchUserData, selectToken, selectUserData } from '../redux/tokenManager/tokens';
-import destinations from '../data/destinations';
+import destinations from '../data/Destinations';
 import carouselImages from '../data/carouselImages';
 import { useNavigate } from 'react-router-dom';
 
