@@ -10,7 +10,7 @@ import About from "./pages/About"
 import Logout from "./pages/Logout"
 import Error from "./pages/Error"
 import ManageReviews from "./pages/ManageReviews"
-import RegisterTourist from "./pages/registerTourist"
+import RegisterTourist from "./pages/RegisterTourist"
 
 function App() {
   return (
