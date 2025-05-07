@@ -5,7 +5,7 @@ export const fetchAllExperiences = createAsyncThunk(
   'experiences/fetchAll',
   async (_, thunkAPI) => {
     try {
-      const response = await fetch('http://127.0.0.1:3000/api/fetch/experiences', {
+      const response = await fetch(import.meta.env.VITE_REDUXSTORE_EXPERIENCE, {
         method: "GET",
       });
 

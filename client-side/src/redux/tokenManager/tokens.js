@@ -15,7 +15,7 @@ export const fetchUserData = createAsyncThunk(
     const state = thunkAPI.getState();
     const token = state.tokens.token;
     try {
-      const response = await fetch(`http://127.0.0.1:3000/api/auth/usersData`, {
+      const response = await fetch(import.meta.env.VITE_REDUXSTORE_AUTH, {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`
